@@ -1,0 +1,5 @@
+This repository hosts minimal versioned binary releases intended for integration
+testing of bine (https://github.com/artefactual-labs/bine), a binary downloader
+for development environments.
+
+Scenario: ags use semantic versioning but are not prefixed with "v".
