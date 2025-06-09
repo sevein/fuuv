@@ -11,7 +11,7 @@ func main() {
 		if i, err := strconv.Atoi(os.Args[1]); err == nil {
 			code = i
 		} else {
-			panic(err)
+			os.Exit(1)
 		}
 	}
 	os.Exit(code)
